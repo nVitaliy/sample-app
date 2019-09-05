@@ -190,3 +190,38 @@ export PROJECT_ID=$(gcloud config get-value project)
 git remote add origin https://source.developers.google.com/p/$PROJECT_ID/r/gceme
 git config --global user.email "vnedbaliuk@gmail.com"
 git config --global user.name "vnedbaliuk"
+git add .
+git commit -m "Initial commit"
+git push origin master
+kubectl get svc
+sudo tcpdump -i eth0 port 8080
+export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/component=jenkins-master" -l "app.kubernetes.io/instance=cd" -o jsonpath="{.items[0].metadata.name}")
+kubectl port-forward $POD_NAME 8080:8080 >> /dev/null &
+git checkout -b canary
+ls
+cd continuous-deployment-on-kubernetes/sample-app/
+ls
+vim html.go 
+git add Jenkinsfile html.go main.go
+git commit -m "Version 2"
+git push origin canary
+git push origin master
+git push origin canary
+git checkout -b canary
+vim html.go 
+vim main.go 
+git add Jenkinsfile html.go main.go
+git commit -m "Version 2"
+git push origin canary
+git config --gloval user.name "nVitaliy"
+git config --global user.name "nVitaliy"
+git push origin canary
+kubclt nodes
+kubectl nodes
+kubectl get nodes
+kubectl get pods
+kubectl get namespaces
+git push origin canary
+kubectl port-forward $POD_NAME 8080:8080 >> /dev/null &
+export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/component=jenkins-master" -l "app.kubernetes.io/instance=cd" -o jsonpath="{.items[0].metadata.name}")
+kubectl port-forward $POD_NAME 8080:8080 >> /dev/null &

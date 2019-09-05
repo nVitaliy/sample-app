@@ -11,8 +11,12 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:wq!
+|2,0,1567439651,,"wq!"
 :q
-|2,0,1566485147,,"q"
+|2,0,1567439608,,"q"
+:xw
+|2,0,1567439106,,"xw"
 
 # Search String History (newest to oldest):
 
@@ -25,16 +29,91 @@
 # Registers:
 
 # File marks:
-'0  16  0  ~/README-cloudshell.txt
-|4,48,16,0,1566485147,"~/README-cloudshell.txt"
+'0  46  24  ~/continuous-deployment-on-kubernetes/sample-app/main.go
+|4,48,46,24,1567439651,"~/continuous-deployment-on-kubernetes/sample-app/main.go"
+'1  50  16  ~/continuous-deployment-on-kubernetes/sample-app/html.go
+|4,49,50,16,1567439608,"~/continuous-deployment-on-kubernetes/sample-app/html.go"
+'2  42  23  ~/continuous-deployment-on-kubernetes/sample-app/html.go
+|4,50,42,23,1567439133,"~/continuous-deployment-on-kubernetes/sample-app/html.go"
+'3  42  23  ~/continuous-deployment-on-kubernetes/sample-app/html.go
+|4,51,42,23,1567439133,"~/continuous-deployment-on-kubernetes/sample-app/html.go"
+'4  16  0  ~/README-cloudshell.txt
+|4,52,16,0,1566485147,"~/README-cloudshell.txt"
 
 # Jumplist (newest first):
+-'  46  24  ~/continuous-deployment-on-kubernetes/sample-app/main.go
+|4,39,46,24,1567439651,"~/continuous-deployment-on-kubernetes/sample-app/main.go"
+-'  1  0  ~/continuous-deployment-on-kubernetes/sample-app/main.go
+|4,39,1,0,1567439623,"~/continuous-deployment-on-kubernetes/sample-app/main.go"
+-'  50  16  ~/continuous-deployment-on-kubernetes/sample-app/html.go
+|4,39,50,16,1567439608,"~/continuous-deployment-on-kubernetes/sample-app/html.go"
+-'  50  16  ~/continuous-deployment-on-kubernetes/sample-app/html.go
+|4,39,50,16,1567439608,"~/continuous-deployment-on-kubernetes/sample-app/html.go"
+-'  42  23  ~/continuous-deployment-on-kubernetes/sample-app/html.go
+|4,39,42,23,1567439599,"~/continuous-deployment-on-kubernetes/sample-app/html.go"
+-'  42  23  ~/continuous-deployment-on-kubernetes/sample-app/html.go
+|4,39,42,23,1567439599,"~/continuous-deployment-on-kubernetes/sample-app/html.go"
+-'  42  23  ~/continuous-deployment-on-kubernetes/sample-app/html.go
+|4,39,42,23,1567439133,"~/continuous-deployment-on-kubernetes/sample-app/html.go"
+-'  42  23  ~/continuous-deployment-on-kubernetes/sample-app/html.go
+|4,39,42,23,1567439133,"~/continuous-deployment-on-kubernetes/sample-app/html.go"
+-'  1  0  ~/continuous-deployment-on-kubernetes/sample-app/html.go
+|4,39,1,0,1567438995,"~/continuous-deployment-on-kubernetes/sample-app/html.go"
+-'  1  0  ~/continuous-deployment-on-kubernetes/sample-app/html.go
+|4,39,1,0,1567438995,"~/continuous-deployment-on-kubernetes/sample-app/html.go"
+-'  1  0  ~/continuous-deployment-on-kubernetes/sample-app/html.go
+|4,39,1,0,1567438995,"~/continuous-deployment-on-kubernetes/sample-app/html.go"
+-'  1  0  ~/continuous-deployment-on-kubernetes/sample-app/html.go
+|4,39,1,0,1567438995,"~/continuous-deployment-on-kubernetes/sample-app/html.go"
+-'  16  0  ~/README-cloudshell.txt
+|4,39,16,0,1566485147,"~/README-cloudshell.txt"
+-'  16  0  ~/README-cloudshell.txt
+|4,39,16,0,1566485147,"~/README-cloudshell.txt"
+-'  16  0  ~/README-cloudshell.txt
+|4,39,16,0,1566485147,"~/README-cloudshell.txt"
+-'  16  0  ~/README-cloudshell.txt
+|4,39,16,0,1566485147,"~/README-cloudshell.txt"
+-'  16  0  ~/README-cloudshell.txt
+|4,39,16,0,1566485147,"~/README-cloudshell.txt"
+-'  16  0  ~/README-cloudshell.txt
+|4,39,16,0,1566485147,"~/README-cloudshell.txt"
+-'  16  0  ~/README-cloudshell.txt
+|4,39,16,0,1566485147,"~/README-cloudshell.txt"
 -'  16  0  ~/README-cloudshell.txt
 |4,39,16,0,1566485147,"~/README-cloudshell.txt"
 -'  1  0  ~/README-cloudshell.txt
 |4,39,1,0,1566485136,"~/README-cloudshell.txt"
+-'  1  0  ~/README-cloudshell.txt
+|4,39,1,0,1566485136,"~/README-cloudshell.txt"
+-'  1  0  ~/README-cloudshell.txt
+|4,39,1,0,1566485136,"~/README-cloudshell.txt"
+-'  1  0  ~/README-cloudshell.txt
+|4,39,1,0,1566485136,"~/README-cloudshell.txt"
+-'  1  0  ~/README-cloudshell.txt
+|4,39,1,0,1566485136,"~/README-cloudshell.txt"
+-'  1  0  ~/README-cloudshell.txt
+|4,39,1,0,1566485136,"~/README-cloudshell.txt"
+-'  1  0  ~/README-cloudshell.txt
+|4,39,1,0,1566485136,"~/README-cloudshell.txt"
+-'  1  0  ~/README-cloudshell.txt
+|4,39,1,0,1566485136,"~/README-cloudshell.txt"
 
 # History of marks within files (newest to oldest):
+
+> ~/continuous-deployment-on-kubernetes/sample-app/main.go
+	*	1567439646	0
+	"	46	24
+	^	46	25
+	.	46	24
+	+	46	24
+
+> ~/continuous-deployment-on-kubernetes/sample-app/html.go
+	*	1567439605	0
+	"	50	16
+	^	37	23
+	.	37	23
+	+	81	23
+	+	37	23
 
 > ~/README-cloudshell.txt
 	*	1566485143	0
